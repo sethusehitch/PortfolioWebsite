@@ -10,9 +10,9 @@ class Landing extends React.Component {
 		return (
 			<div className="Section">
 				<div className="Slogan">
-					Code.<br />
-					Design. Teach.<br />
-					Innovate.
+					Founder, Hitch.<br />
+					OpenAI.<br />
+					San Francisco.
 				</div>
 				<div>
 					<a href="https://www.linkedin.com/in/seth-saperstein/" target="_blank" rel="noopener noreferrer"><img src={LinkedInLogo} alt="LinkedIn Logo" className="LinkedInLogo" /></a>

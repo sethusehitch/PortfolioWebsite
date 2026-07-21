@@ -1,36 +1,32 @@
-/* Design inspiration:  https://dribbble.com/shots/1978243-Latest-News */
-
-$grey: #373446;
+/* Design inspiration: https://dribbble.com/shots/1978243-Latest-News */
 
 body, html {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .card {
-  width:280px;
+  width: 280px;
   display: block;
   margin: 60px;
-  box-shadow: 10px 5px 40px 20px darken(#373446, 2%);
+  box-shadow: 10px 5px 40px 20px #332f40;
   transition: .25s;
-  
-  &:hover {
-    box-shadow: 10px 5px 40px 20px darken(#373446, 15%);
-    cursor: pointer;
-    
-    .button-primary {
-      transform: translate(10px, 0);
-    }
-  }
+}
+
+.card:hover {
+  box-shadow: 10px 5px 40px 20px #17151d;
+  cursor: pointer;
+}
+
+.card:hover .button-primary {
+  transform: translate(10px, 0);
 }
 
 .card-header {
   height: 150px;
   width: 100%;
   padding: 15px;
-  width:100%;
-  background-size:cover;
-  color:#fff;
+  background-size: cover;
+  color: #fff;
 }
 
 .card-header--title {
@@ -40,8 +36,8 @@ body, html {
 
 .card-body {
   padding: 15px;
-  background-color:#fff;
-  width:100%;
+  background-color: #fff;
+  width: 100%;
 }
 
 .date {
@@ -60,22 +56,21 @@ body, html {
   border: none;
   box-shadow: none;
   font-family: inherit;
-  background-color:transparent;
-  color: $grey;
+  background-color: transparent;
+  color: #373446;
   font-size: 15px;
-  transition:.25s;
+  transition: .25s;
   cursor: pointer;
-  
-  i{
-    padding-right:4px;
-  }
 }
 
+.button-primary i {
+  padding-right: 4px;
+}
 
 .designer-link {
-  color:#fff;
-  text-align:center;
+  color: #fff;
+  text-align: center;
   font-size: 12px;
   text-decoration: none;
-  display:block;
+  display: block;
 }

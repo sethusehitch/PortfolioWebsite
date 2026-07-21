@@ -9,15 +9,11 @@ class About extends React.Component {
 				<div className="AboutHeading">About</div>
 				<div className="AboutParagraph">
 					<p>
-						I'm currently a Big Data Engineer at Rocket Homes, focused on building tooling to simplify processes related to data ingestion, transformation, storage, and analysis, primarily in relation to real-estate data. I graduated from University of Michigan in 2019 after pursuing my Bachelors in Data Science, Economics, and Mathematics of Finance and Risk Management. I am particularly interested in harnessing alternative and emerging data for social good. I also have a growing interest in data ethics and data transparency with a firm belief that the rights to our data are human rights.
+						I'm a founder and software engineer in San Francisco. I work at OpenAI and am building Hitch, a voice-first AI product for personal agency and follow-through. Previously, I built products and systems at Stripe and Lyft.
 						<br/><br/>
-						My interests vary widely though, both in and out of software engineering. Whether it's designing large scale systems such as betting exchanges or hitting the slopes to catch some fresh "pow", I'm passionate about all I do.
+						Outside of work, I'm usually playing volleyball, doing Pilates, reading, traveling, or listening to classic rock, funk, and pop. I write about software, systems, product-building, and the experiments that make life work a little better.
 						<br/><br/>
-						Languages: Python, C++, SQL, Scala, ReactJS, Java, Swift
-						<br/><br/>
-						Technologies:  AWS, Spark, Kafka, Airflow, Terraform, Cloudformation, Troposphere, Airbyte, Hudi, Docker, Jenkins
-						<br/><br/>
-						I'm always interested to hear from other professionals in the industry and would love to connect with you! Also feel free to reach out if you're looking to collaborate on a project!
+						I'm interested in thoughtful technology that gives people more agency, and in meeting people who care deeply about what they build and how they live.
 					</p>
 				</div>
 			</div>

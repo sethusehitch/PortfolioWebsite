@@ -1,6 +1,5 @@
 import React from 'react';
 import './Styles/NavBar.css';
-import Pdf from './Seth_Saperstein.pdf';
 
 class NavBar extends React.Component {
 	constructor(props) {
@@ -29,7 +28,7 @@ class NavBar extends React.Component {
 			<nav className="nav">
 			    <ul className="NavBar-Container">
 			    	<li onClick={this.handleToggle} id="Toggle">Menu</li>
-			        <li><a href={Pdf} target="_blank" rel="noopener noreferrer">RESUME</a></li>
+			        <li><a href="https://www.linkedin.com/in/seth-saperstein/" target="_blank" rel="noopener noreferrer">LINKEDIN</a></li>
 					<li onClick={this.scrollProjects}>PROJECTS</li>
 			        <li id="Name">SETH SAPERSTEIN</li>
 					<li onClick={this.scrollBlogs}>BLOGS</li>
@@ -47,7 +46,7 @@ function DropDown(props) {
 		return (
 			<div>
 				<ul className="DropDown">
-					<li><a href={Pdf} target="_blank" rel="noopener noreferrer">RESUME</a></li>
+					<li><a href="https://www.linkedin.com/in/seth-saperstein/" target="_blank" rel="noopener noreferrer">LINKEDIN</a></li>
 					<li onClick={props.scrollProjects}>PROJECTS</li>
 			        <li onClick={props.scrollBlogs}>BLOGS</li>
 			        <li onClick={props.scrollTutorials}>TUTORIALS</li>

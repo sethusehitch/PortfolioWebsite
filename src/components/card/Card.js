@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Style.scss';
+import './Style.css';
 
 class CardHeader extends React.Component {
   render() {
