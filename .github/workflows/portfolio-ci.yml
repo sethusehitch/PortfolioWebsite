@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - refresh-public-profile-2026
 
 permissions:
   contents: read
