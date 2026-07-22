@@ -9,9 +9,7 @@ class CardHeader extends React.Component {
         backgroundImage: 'url(' + image + ')',
     };
     return (
-      <header style={style} id={image} className="card-header">
-        <h4 className="card-header--title"></h4>
-      </header>
+      <header style={style} id={image} className="card-header" aria-hidden="true" />
     )
   }
 }
